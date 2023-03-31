@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F306340C29CCB65000F7C673 /* CategoriasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F306340A29CCB65000F7C673 /* CategoriasTableViewCell.swift */; };
+		F306340D29CCB65000F7C673 /* CategoriasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F306340B29CCB65000F7C673 /* CategoriasTableViewCell.xib */; };
+		F306340F29CCB9DE00F7C673 /* Categorias.swift in Sources */ = {isa = PBXBuildFile; fileRef = F306340E29CCB9DE00F7C673 /* Categorias.swift */; };
+		F306341129CCBE0200F7C673 /* CategoriaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F306341029CCBE0200F7C673 /* CategoriaViewModel.swift */; };
+		F306341329CCBE2A00F7C673 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F306341229CCBE2A00F7C673 /* Result.swift */; };
+		F306341529CCBF1000F7C673 /* CategoriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F306341429CCBF1000F7C673 /* CategoriaViewController.swift */; };
+		F306341C29CCCEB200F7C673 /* banco.png in Resources */ = {isa = PBXBuildFile; fileRef = F306341629CCCEB200F7C673 /* banco.png */; };
+		F306341D29CCCEB200F7C673 /* claqueta.png in Resources */ = {isa = PBXBuildFile; fileRef = F306341729CCCEB200F7C673 /* claqueta.png */; };
+		F306341E29CCCEB200F7C673 /* hospital.png in Resources */ = {isa = PBXBuildFile; fileRef = F306341829CCCEB200F7C673 /* hospital.png */; };
+		F306341F29CCCEB200F7C673 /* centro-comercial.png in Resources */ = {isa = PBXBuildFile; fileRef = F306341929CCCEB200F7C673 /* centro-comercial.png */; };
+		F306342029CCCEB200F7C673 /* colegio.png in Resources */ = {isa = PBXBuildFile; fileRef = F306341A29CCCEB200F7C673 /* colegio.png */; };
+		F306342129CCCEB200F7C673 /* mascaras-de-teatro.png in Resources */ = {isa = PBXBuildFile; fileRef = F306341B29CCCEB200F7C673 /* mascaras-de-teatro.png */; };
+		F306342429CCD03300F7C673 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F306342229CCD03300F7C673 /* PlaceTableViewCell.swift */; };
+		F306342529CCD03300F7C673 /* PlaceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F306342329CCD03300F7C673 /* PlaceTableViewCell.xib */; };
+		F306342729CCD26500F7C673 /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F306342629CCD26500F7C673 /* PlacesTableViewController.swift */; };
+		F306342929CD071500F7C673 /* aptitud.png in Resources */ = {isa = PBXBuildFile; fileRef = F306342829CD071500F7C673 /* aptitud.png */; };
+		F306342B29CD114800F7C673 /* PlaceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F306342A29CD114800F7C673 /* PlaceDetail.swift */; };
+		F306342E29CD1EB800F7C673 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F306342D29CD1EB800F7C673 /* MapKit.framework */; };
+		F306343029CD1FE700F7C673 /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F306342F29CD1FE700F7C673 /* DetalleViewController.swift */; };
+		F3675E8829CBA15500EE0E40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3675E8729CBA15500EE0E40 /* AppDelegate.swift */; };
+		F3675E8A29CBA15500EE0E40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3675E8929CBA15500EE0E40 /* SceneDelegate.swift */; };
+		F3675E8C29CBA15500EE0E40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3675E8B29CBA15500EE0E40 /* ViewController.swift */; };
+		F3675E8F29CBA15500EE0E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3675E8D29CBA15500EE0E40 /* Main.storyboard */; };
+		F3675E9229CBA15500EE0E40 /* MRangelMapa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3675E9029CBA15500EE0E40 /* MRangelMapa.xcdatamodeld */; };
+		F3675E9429CBA15600EE0E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3675E9329CBA15600EE0E40 /* Assets.xcassets */; };
+		F3675E9729CBA15600EE0E40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3675E9529CBA15600EE0E40 /* LaunchScreen.storyboard */; };
+		F3675E9F29CBB77300EE0E40 /* imgpsh_fullsize_anim1.png in Resources */ = {isa = PBXBuildFile; fileRef = F3675E9E29CBB77300EE0E40 /* imgpsh_fullsize_anim1.png */; };
+		F3675EA529CBDC0E00EE0E40 /* MapaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3675EA429CBDC0E00EE0E40 /* MapaViewModel.swift */; };
+		F3675EA729CBDCB500EE0E40 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3675EA629CBDCB500EE0E40 /* Place.swift */; };
+		F3858FB629CE18DE0041ED61 /* DetalleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3858FB429CE18DE0041ED61 /* DetalleTableViewCell.swift */; };
+		F3858FB729CE18DE0041ED61 /* DetalleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3858FB529CE18DE0041ED61 /* DetalleTableViewCell.xib */; };
+		F3858FB929CE71D30041ED61 /* PlacesMapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3858FB829CE71D30041ED61 /* PlacesMapaViewController.swift */; };
+		F3BC7BCE29D22146000B6B9F /* FavoritosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC7BCD29D22146000B6B9F /* FavoritosViewModel.swift */; };
+		F3BC7BD029D225E7000B6B9F /* FavoritosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC7BCF29D225E7000B6B9F /* FavoritosTableViewController.swift */; };
+		F3BC7BD229D23475000B6B9F /* Favoritos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC7BD129D23475000B6B9F /* Favoritos.swift */; };
+		F3BC7BD429D26905000B6B9F /* restaurante.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BC7BD329D26905000B6B9F /* restaurante.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F306340A29CCB65000F7C673 /* CategoriasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriasTableViewCell.swift; sourceTree = "<group>"; };
+		F306340B29CCB65000F7C673 /* CategoriasTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriasTableViewCell.xib; sourceTree = "<group>"; };
+		F306340E29CCB9DE00F7C673 /* Categorias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categorias.swift; sourceTree = "<group>"; };
+		F306341029CCBE0200F7C673 /* CategoriaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriaViewModel.swift; sourceTree = "<group>"; };
+		F306341229CCBE2A00F7C673 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		F306341429CCBF1000F7C673 /* CategoriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriaViewController.swift; sourceTree = "<group>"; };
+		F306341629CCCEB200F7C673 /* banco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banco.png; sourceTree = "<group>"; };
+		F306341729CCCEB200F7C673 /* claqueta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = claqueta.png; sourceTree = "<group>"; };
+		F306341829CCCEB200F7C673 /* hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hospital.png; sourceTree = "<group>"; };
+		F306341929CCCEB200F7C673 /* centro-comercial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "centro-comercial.png"; sourceTree = "<group>"; };
+		F306341A29CCCEB200F7C673 /* colegio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colegio.png; sourceTree = "<group>"; };
+		F306341B29CCCEB200F7C673 /* mascaras-de-teatro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mascaras-de-teatro.png"; sourceTree = "<group>"; };
+		F306342229CCD03300F7C673 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
+		F306342329CCD03300F7C673 /* PlaceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceTableViewCell.xib; sourceTree = "<group>"; };
+		F306342629CCD26500F7C673 /* PlacesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewController.swift; sourceTree = "<group>"; };
+		F306342829CD071500F7C673 /* aptitud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aptitud.png; sourceTree = "<group>"; };
+		F306342A29CD114800F7C673 /* PlaceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetail.swift; sourceTree = "<group>"; };
+		F306342D29CD1EB800F7C673 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F306342F29CD1FE700F7C673 /* DetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
+		F3675E8429CBA15500EE0E40 /* MRangelMapa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRangelMapa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3675E8729CBA15500EE0E40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3675E8929CBA15500EE0E40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3675E8B29CBA15500EE0E40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3675E8E29CBA15500EE0E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3675E9129CBA15500EE0E40 /* MRangelMapa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MRangelMapa.xcdatamodel; sourceTree = "<group>"; };
+		F3675E9329CBA15600EE0E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3675E9629CBA15600EE0E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3675E9829CBA15600EE0E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3675E9E29CBB77300EE0E40 /* imgpsh_fullsize_anim1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgpsh_fullsize_anim1.png; sourceTree = "<group>"; };
+		F3675EA429CBDC0E00EE0E40 /* MapaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaViewModel.swift; sourceTree = "<group>"; };
+		F3675EA629CBDCB500EE0E40 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		F3858FB429CE18DE0041ED61 /* DetalleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleTableViewCell.swift; sourceTree = "<group>"; };
+		F3858FB529CE18DE0041ED61 /* DetalleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetalleTableViewCell.xib; sourceTree = "<group>"; };
+		F3858FB829CE71D30041ED61 /* PlacesMapaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesMapaViewController.swift; sourceTree = "<group>"; };
+		F3BC7BCD29D22146000B6B9F /* FavoritosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosViewModel.swift; sourceTree = "<group>"; };
+		F3BC7BCF29D225E7000B6B9F /* FavoritosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosTableViewController.swift; sourceTree = "<group>"; };
+		F3BC7BD129D23475000B6B9F /* Favoritos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favoritos.swift; sourceTree = "<group>"; };
+		F3BC7BD329D26905000B6B9F /* restaurante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = restaurante.png; path = ../../../../Downloads/restaurante.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3675E8129CBA15500EE0E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F306342E29CD1EB800F7C673 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F306342C29CD1EB700F7C673 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F306342D29CD1EB800F7C673 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3675E7B29CBA15500EE0E40 = {
+			isa = PBXGroup;
+			children = (
+				F3675E8629CBA15500EE0E40 /* MRangelMapa */,
+				F3675E8529CBA15500EE0E40 /* Products */,
+				F306342C29CD1EB700F7C673 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3675E8529CBA15500EE0E40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3675E8429CBA15500EE0E40 /* MRangelMapa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3675E8629CBA15500EE0E40 /* MRangelMapa */ = {
+			isa = PBXGroup;
+			children = (
+				F3675EA329CBDBF400EE0E40 /* Model */,
+				F3675EA229CBDBEC00EE0E40 /* View */,
+				F3675EA129CBDBE000EE0E40 /* ViewModel */,
+				F3675EA029CBDBD500EE0E40 /* Controller */,
+				F3675E8729CBA15500EE0E40 /* AppDelegate.swift */,
+				F3675E8929CBA15500EE0E40 /* SceneDelegate.swift */,
+				F3675E9329CBA15600EE0E40 /* Assets.xcassets */,
+				F3675E9529CBA15600EE0E40 /* LaunchScreen.storyboard */,
+				F3675E9829CBA15600EE0E40 /* Info.plist */,
+				F3675E9029CBA15500EE0E40 /* MRangelMapa.xcdatamodeld */,
+				F3675E9E29CBB77300EE0E40 /* imgpsh_fullsize_anim1.png */,
+				F306342829CD071500F7C673 /* aptitud.png */,
+				F306341629CCCEB200F7C673 /* banco.png */,
+				F306341929CCCEB200F7C673 /* centro-comercial.png */,
+				F306341729CCCEB200F7C673 /* claqueta.png */,
+				F306341A29CCCEB200F7C673 /* colegio.png */,
+				F306341829CCCEB200F7C673 /* hospital.png */,
+				F3BC7BD329D26905000B6B9F /* restaurante.png */,
+				F306341B29CCCEB200F7C673 /* mascaras-de-teatro.png */,
+			);
+			path = MRangelMapa;
+			sourceTree = "<group>";
+		};
+		F3675EA029CBDBD500EE0E40 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F3675E8B29CBA15500EE0E40 /* ViewController.swift */,
+				F306341429CCBF1000F7C673 /* CategoriaViewController.swift */,
+				F306342629CCD26500F7C673 /* PlacesTableViewController.swift */,
+				F306342F29CD1FE700F7C673 /* DetalleViewController.swift */,
+				F3858FB829CE71D30041ED61 /* PlacesMapaViewController.swift */,
+				F3BC7BCF29D225E7000B6B9F /* FavoritosTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F3675EA129CBDBE000EE0E40 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F3675EA429CBDC0E00EE0E40 /* MapaViewModel.swift */,
+				F306341029CCBE0200F7C673 /* CategoriaViewModel.swift */,
+				F3BC7BCD29D22146000B6B9F /* FavoritosViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F3675EA229CBDBEC00EE0E40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F306340A29CCB65000F7C673 /* CategoriasTableViewCell.swift */,
+				F306340B29CCB65000F7C673 /* CategoriasTableViewCell.xib */,
+				F3675E8D29CBA15500EE0E40 /* Main.storyboard */,
+				F306342229CCD03300F7C673 /* PlaceTableViewCell.swift */,
+				F306342329CCD03300F7C673 /* PlaceTableViewCell.xib */,
+				F3858FB429CE18DE0041ED61 /* DetalleTableViewCell.swift */,
+				F3858FB529CE18DE0041ED61 /* DetalleTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3675EA329CBDBF400EE0E40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3675EA629CBDCB500EE0E40 /* Place.swift */,
+				F306342A29CD114800F7C673 /* PlaceDetail.swift */,
+				F306340E29CCB9DE00F7C673 /* Categorias.swift */,
+				F306341229CCBE2A00F7C673 /* Result.swift */,
+				F3BC7BD129D23475000B6B9F /* Favoritos.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3675E8329CBA15500EE0E40 /* MRangelMapa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3675E9B29CBA15600EE0E40 /* Build configuration list for PBXNativeTarget "MRangelMapa" */;
+			buildPhases = (
+				F3675E8029CBA15500EE0E40 /* Sources */,
+				F3675E8129CBA15500EE0E40 /* Frameworks */,
+				F3675E8229CBA15500EE0E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRangelMapa;
+			productName = MRangelMapa;
+			productReference = F3675E8429CBA15500EE0E40 /* MRangelMapa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3675E7C29CBA15500EE0E40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F3675E8329CBA15500EE0E40 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F3675E7F29CBA15500EE0E40 /* Build configuration list for PBXProject "MRangelMapa" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3675E7B29CBA15500EE0E40;
+			productRefGroup = F3675E8529CBA15500EE0E40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3675E8329CBA15500EE0E40 /* MRangelMapa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3675E8229CBA15500EE0E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F306340D29CCB65000F7C673 /* CategoriasTableViewCell.xib in Resources */,
+				F306342929CD071500F7C673 /* aptitud.png in Resources */,
+				F3675E9729CBA15600EE0E40 /* LaunchScreen.storyboard in Resources */,
+				F306342029CCCEB200F7C673 /* colegio.png in Resources */,
+				F3675E9429CBA15600EE0E40 /* Assets.xcassets in Resources */,
+				F306341E29CCCEB200F7C673 /* hospital.png in Resources */,
+				F306342129CCCEB200F7C673 /* mascaras-de-teatro.png in Resources */,
+				F3BC7BD429D26905000B6B9F /* restaurante.png in Resources */,
+				F306341F29CCCEB200F7C673 /* centro-comercial.png in Resources */,
+				F306341C29CCCEB200F7C673 /* banco.png in Resources */,
+				F3675E9F29CBB77300EE0E40 /* imgpsh_fullsize_anim1.png in Resources */,
+				F306341D29CCCEB200F7C673 /* claqueta.png in Resources */,
+				F3675E8F29CBA15500EE0E40 /* Main.storyboard in Resources */,
+				F306342529CCD03300F7C673 /* PlaceTableViewCell.xib in Resources */,
+				F3858FB729CE18DE0041ED61 /* DetalleTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3675E8029CBA15500EE0E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F306341129CCBE0200F7C673 /* CategoriaViewModel.swift in Sources */,
+				F3BC7BD029D225E7000B6B9F /* FavoritosTableViewController.swift in Sources */,
+				F306340C29CCB65000F7C673 /* CategoriasTableViewCell.swift in Sources */,
+				F3BC7BCE29D22146000B6B9F /* FavoritosViewModel.swift in Sources */,
+				F3BC7BD229D23475000B6B9F /* Favoritos.swift in Sources */,
+				F306341529CCBF1000F7C673 /* CategoriaViewController.swift in Sources */,
+				F3675E8C29CBA15500EE0E40 /* ViewController.swift in Sources */,
+				F306342B29CD114800F7C673 /* PlaceDetail.swift in Sources */,
+				F3858FB629CE18DE0041ED61 /* DetalleTableViewCell.swift in Sources */,
+				F3675E9229CBA15500EE0E40 /* MRangelMapa.xcdatamodeld in Sources */,
+				F306343029CD1FE700F7C673 /* DetalleViewController.swift in Sources */,
+				F3675E8829CBA15500EE0E40 /* AppDelegate.swift in Sources */,
+				F3675EA729CBDCB500EE0E40 /* Place.swift in Sources */,
+				F306341329CCBE2A00F7C673 /* Result.swift in Sources */,
+				F3858FB929CE71D30041ED61 /* PlacesMapaViewController.swift in Sources */,
+				F306340F29CCB9DE00F7C673 /* Categorias.swift in Sources */,
+				F3675EA529CBDC0E00EE0E40 /* MapaViewModel.swift in Sources */,
+				F3675E8A29CBA15500EE0E40 /* SceneDelegate.swift in Sources */,
+				F306342729CCD26500F7C673 /* PlacesTableViewController.swift in Sources */,
+				F306342429CCD03300F7C673 /* PlaceTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3675E8D29CBA15500EE0E40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3675E8E29CBA15500EE0E40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3675E9529CBA15600EE0E40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3675E9629CBA15600EE0E40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3675E9929CBA15600EE0E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3675E9A29CBA15600EE0E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3675E9C29CBA15600EE0E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LB82Q2DXR9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MRangelMapa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis01.MRangelMapa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3675E9D29CBA15600EE0E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LB82Q2DXR9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MRangelMapa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis01.MRangelMapa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3675E7F29CBA15500EE0E40 /* Build configuration list for PBXProject "MRangelMapa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3675E9929CBA15600EE0E40 /* Debug */,
+				F3675E9A29CBA15600EE0E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3675E9B29CBA15600EE0E40 /* Build configuration list for PBXNativeTarget "MRangelMapa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3675E9C29CBA15600EE0E40 /* Debug */,
+				F3675E9D29CBA15600EE0E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F3675E9029CBA15500EE0E40 /* MRangelMapa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F3675E9129CBA15500EE0E40 /* MRangelMapa.xcdatamodel */,
+			);
+			currentVersion = F3675E9129CBA15500EE0E40 /* MRangelMapa.xcdatamodel */;
+			path = MRangelMapa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F3675E7C29CBA15500EE0E40 /* Project object */;
+}
